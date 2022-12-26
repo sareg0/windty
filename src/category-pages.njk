@@ -1,0 +1,9 @@
+---
+pagination:
+    data: categories
+    size: 1
+    alias: category
+permalink: "{{ category.name | slug }}/"
+---
+
+{{ category.name }} is {{ category.tagName }} years old
